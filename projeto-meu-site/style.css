@@ -1,0 +1,60 @@
+/* Estilização do cabeçalho <h1> */
+h1 {
+    color: #3498db; /* Azul */
+    font-size: 36px; /* Tamanho maior do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilização do parágrafo <p> */
+p {
+    padding: 20px; /* Adiciona espaçamento interno */
+    font-size: 16px; /* Ajusta o tamanho do texto para legibilidade */
+    line-height: 1.5; /* Melhora o espaçamento entre linhas */
+}
+
+/* Estilização da imagem */
+img {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem e adiciona margem superior/inferior */
+    max-width: 100%; /* Garante que a imagem se ajuste ao tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilização adicional do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto no rodapé */
+    margin-top: 20px;
+    color: #7f8c8d; /* Cor mais neutra para o texto do rodapé */
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona margem */
+    max-width: 100%; /* Garante que a imagem seja responsiva */
+    height: auto; /* Mantém as proporções da imagem */
+}
+
+
+/* Estilo base para os links */
+a {
+    color: #3498db; /* Cor azul inicial */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Adiciona um peso à fonte */
+}
+
+/* Efeito hover para os links */
+a:hover {
+    color: #e74c3c; /* Altera a cor para vermelho ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado no hover */
+    transition: color 0.3s ease; /* Suaviza a transição da cor */
+}
+
+
+/* Centralizar a imagem e ajustar seu tamanho */
+img {
+    display: block;
+    margin: 10px auto; /* Centraliza horizontalmente */
+    width: 50%; /* Ajusta a largura da imagem para 50% do seu tamanho original */
+    max-width: 470px; /* Limita a largura máxima a 300px */
+    height: auto; /* Mantém a proporção da imagem */
+}
